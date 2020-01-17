@@ -18,6 +18,7 @@ namespace WEB_APP.Controller
         }
         public ViewResult Index()
         {
+            ViewBag.Title = "Employee List";
             var employees = _employeeRepository.GetEmployees();
             return View(employees);
         }
