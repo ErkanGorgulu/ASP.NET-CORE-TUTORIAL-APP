@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WEB_APP.Models;
+using WEB_APP.ViewModels;
 
 namespace WEB_APP.Controller
 {
@@ -22,9 +23,12 @@ namespace WEB_APP.Controller
         }
         public ViewResult Details(int id=1)
         {
-
-            Employee employee = _employeeRepository.GetEmployee(Id:id);
-            return View(employee);
+            HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel
+            {
+                Employee = _employeeRepository.GetEmployee(id),
+                PageTitle = "Details"
+            };
+            return View(homeDetailsViewModel);
         }
     }
 }

@@ -1,8 +1,12 @@
-﻿<html xmlns="http://www.w3.org/1999/xhtml">
+﻿@model WEB_APP.ViewModels.HomeDetailsViewModel
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title></title>
+    <title>@Model.PageTitle</title>
 </head>
 <body>
-    <h1>HELLO FROM DETAILS.CSHTML</h1>
+    <h1>@Model.Employee.Id</h1>
+    <h1>@Model.Employee.Name</h1>
+    <h1>@Model.Employee.Email</h1>
+    <h1>@Model.Employee.Department</h1>
 </body>
 </html>
