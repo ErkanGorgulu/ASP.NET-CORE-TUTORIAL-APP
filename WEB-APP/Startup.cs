@@ -34,12 +34,13 @@ namespace WEB_APP
                 app.UseDeveloperExceptionPage(developerExceptionPageOptions);
             }
             
-            app.UseRouting();
+            
             app.UseStaticFiles();
             app.UseMvc(routes =>
             {
                 routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");//conventional routing
             });
+            app.UseRouting();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
