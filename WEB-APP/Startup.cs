@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using WEB_APP.Models;
 
 namespace WEB_APP
 {
@@ -18,6 +19,7 @@ namespace WEB_APP
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc(delegate(MvcOptions options) { options.EnableEndpointRouting = false; });
+            services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
