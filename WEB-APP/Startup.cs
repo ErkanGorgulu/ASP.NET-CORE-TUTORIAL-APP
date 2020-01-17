@@ -27,8 +27,10 @@ namespace WEB_APP
             }
             
             app.UseRouting();
-            app.UseDefaultFiles();
-            app.UseStaticFiles();
+            FileServerOptions fileServerOptions = new FileServerOptions();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("foo.html");
+            app.UseFileServer(fileServerOptions);
             //app.UseEndpoints(endpoints =>
             //{
             //    endpoints.MapGet("/", async context =>
