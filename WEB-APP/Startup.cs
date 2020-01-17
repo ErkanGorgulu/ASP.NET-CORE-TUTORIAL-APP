@@ -25,9 +25,9 @@ namespace WEB_APP
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            
             app.UseRouting();
-
+            app.UseStaticFiles();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
