@@ -22,5 +22,10 @@ namespace WEB_APP.Models
         {
             return _employees.FirstOrDefault(e => e.Id == id);
         }
+
+        public List<Employee> GetEmployees()
+        {
+            return _employees;
+        }
     }
 }

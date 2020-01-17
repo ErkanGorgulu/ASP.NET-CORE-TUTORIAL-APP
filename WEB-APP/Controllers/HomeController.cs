@@ -16,10 +16,10 @@ namespace WEB_APP.Controller
         {
             _employeeRepository = employeeRepository;
         }
-        public string Index(int id=1)
+        public ViewResult Index()
         {
-
-            return _employeeRepository.GetEmployee(Id:id).Name;
+            var employees = _employeeRepository.GetEmployees();
+            return View(employees);
         }
         public ViewResult Details(int id=1)
         {

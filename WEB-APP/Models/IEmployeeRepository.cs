@@ -8,5 +8,6 @@ namespace WEB_APP.Models
     public interface IEmployeeRepository
     {
         Employee GetEmployee(int Id);
+        List<Employee> GetEmployees();
     }
 }
