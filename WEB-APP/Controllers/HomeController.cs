@@ -16,17 +16,21 @@ namespace WEB_APP.Controller
         {
             _employeeRepository = employeeRepository;
         }
+        //[Route("")]
+        //[Route("Home")]
+        //[Route("Home/Index")]
+        //attribute routing, use them for APIs
         public ViewResult Index()
         {
             ViewBag.Title = "Employee List";
             var employees = _employeeRepository.GetEmployees();
             return View(employees);
         }
-        public ViewResult Details(int id=1)
+        public ViewResult Details(int? id)
         {
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel
             {
-                Employee = _employeeRepository.GetEmployee(id),
+                Employee = _employeeRepository.GetEmployee(id??1),//if null use 1
                 PageTitle = "Details"
             };
             return View(homeDetailsViewModel);
