@@ -8,8 +8,6 @@ C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.1\WEB-APP.dll
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.1\WEB-APP.pdb
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\obj\Debug\netcoreapp3.1\WEB-APP.csprojAssemblyReference.cache
-C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\obj\Debug\netcoreapp3.1\staticwebassets\WEB-APP.StaticWebAssets.Manifest.cache
-C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\obj\Debug\netcoreapp3.1\staticwebassets\WEB-APP.StaticWebAssets.xml
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\obj\Debug\netcoreapp3.1\WEB-APP.AssemblyInfoInputs.cache
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\obj\Debug\netcoreapp3.1\WEB-APP.AssemblyInfo.cs
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\obj\Debug\netcoreapp3.1\WEB-APP.RazorTargetAssemblyInfo.cache
