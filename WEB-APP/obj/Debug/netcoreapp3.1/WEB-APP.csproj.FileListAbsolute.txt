@@ -116,5 +116,10 @@ C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\obj\Debug\netcoreapp3.1\WEB-APP.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
+C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
