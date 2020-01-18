@@ -8,7 +8,7 @@ using WEB_APP.ViewModels;
 
 namespace WEB_APP.Controller
 {
-    public class HomeController: Microsoft.AspNetCore.Mvc.Controller
+    public class HomeController : Microsoft.AspNetCore.Mvc.Controller
     {
         private readonly IEmployeeRepository _employeeRepository;
 
@@ -30,7 +30,7 @@ namespace WEB_APP.Controller
         {
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel
             {
-                Employee = _employeeRepository.GetEmployee(id??1),//if null use 1
+                Employee = _employeeRepository.GetEmployee(id ?? 1),//if null use 1
                 PageTitle = "Details"
             };
             return View(homeDetailsViewModel);
@@ -41,10 +41,17 @@ namespace WEB_APP.Controller
             return View();
         }
         [HttpPost]
-        public RedirectToActionResult Create(Employee employee)
+        public IActionResult Create(Employee employee)
         {
-            Employee newEmployee = _employeeRepository.AddEmployee(employee);
-            return RedirectToAction("Details", new {newEmployee.Id});
+            if (ModelState.IsValid)
+            {
+                Employee newEmployee = _employeeRepository.AddEmployee(employee);
+                return RedirectToAction("Details", new { newEmployee.Id });
+            }
+
+            return View();
+
+
         }
     }
 }
