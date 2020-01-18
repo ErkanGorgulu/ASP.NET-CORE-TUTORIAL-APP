@@ -23,7 +23,7 @@ namespace WEB_APP.Models
             return _employees.FirstOrDefault(e => e.Id == id);
         }
 
-        public List<Employee> GetEmployees()
+        public IEnumerable<Employee> GetEmployees()
         {
             return _employees;
         }
@@ -33,6 +33,18 @@ namespace WEB_APP.Models
             employee.Id = _employees.Max(e => e.Id) + 1;
             _employees.Add(employee);
             return employee;
+        }
+
+        public Employee UpdateEmployee(Employee employeeChanges)
+        {
+            //unnecessary since i will move on the EF
+            throw new NotImplementedException();
+        }
+
+        public Employee DeleteEmployee(int id)
+        {
+            //unnecessary since i will move on the EF
+            throw new NotImplementedException();
         }
     }
 }
