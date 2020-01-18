@@ -117,3 +117,4 @@ C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\obj\Debug\netcoreapp3.1\WEB-APP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
