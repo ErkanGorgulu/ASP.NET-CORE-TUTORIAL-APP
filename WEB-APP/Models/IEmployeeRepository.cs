@@ -9,5 +9,6 @@ namespace WEB_APP.Models
     {
         Employee GetEmployee(int Id);
         List<Employee> GetEmployees();
+        Employee AddEmployee(Employee employee);
     }
 }
