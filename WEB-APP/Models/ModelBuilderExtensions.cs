@@ -16,21 +16,25 @@ namespace WEB_APP.Models
                     Id = 1,
                     Name = "Eric",
                     Department = Dept.IT,
-                    Email = "erkangorgulu@gmail.com"
+                    Email = "erkangorgulu@gmail.com",
+                    PhotoPath = null
+                    
                 },
                 new Employee
                 {
                     Id = 2,
                     Name = "April",
                     Department = Dept.HR,
-                    Email = "aprilLegget@gmail.com"
+                    Email = "aprilLegget@gmail.com",
+                    PhotoPath = null
                 },
                 new Employee
                 {
                     Id = 3,
                     Name = "Alejandro",
                     Department = Dept.Accountancy,
-                    Email = "Alejandroxx@gmail.com"
+                    Email = "Alejandroxx@gmail.com",
+                    PhotoPath = null
                 }
             );
         }

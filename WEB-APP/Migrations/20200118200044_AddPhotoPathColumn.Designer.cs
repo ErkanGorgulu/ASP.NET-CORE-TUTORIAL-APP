@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WEB_APP.Models;
 
 namespace WEB_APP.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200118200044_AddPhotoPathColumn")]
+    partial class AddPhotoPathColumn
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -50,21 +52,24 @@ namespace WEB_APP.Migrations
                             Id = 1,
                             Department = 2,
                             Email = "erkangorgulu@gmail.com",
-                            Name = "Eric"
+                            Name = "Eric",
+                            PhotoPath = ""
                         },
                         new
                         {
                             Id = 2,
                             Department = 1,
                             Email = "aprilLegget@gmail.com",
-                            Name = "April"
+                            Name = "April",
+                            PhotoPath = ""
                         },
                         new
                         {
                             Id = 3,
                             Department = 3,
                             Email = "Alejandroxx@gmail.com",
-                            Name = "Alejandro"
+                            Name = "Alejandro",
+                            PhotoPath = ""
                         });
                 });
 #pragma warning restore 612, 618

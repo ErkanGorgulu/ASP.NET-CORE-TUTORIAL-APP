@@ -13,9 +13,9 @@ namespace WEB_APP.Models
         {
             _employees = new List<Employee>()
             {
-                new Employee() {Id = 1, Name = "Erkan", Email = "erkangorgulu@gmail.com", Department = Dept.IT},
-                new Employee() {Id = 2, Name = "Steve", Email = "djsteve@hotmail.com", Department = Dept.HR},
-                new Employee() {Id = 3, Name = "Laila", Email = "crazy_laila@hotmail.com", Department = Dept.Accountancy}
+                //new Employee() {Id = 1, Name = "Erkan", Email = "erkangorgulu@gmail.com", Department = Dept.IT},
+                //new Employee() {Id = 2, Name = "Steve", Email = "djsteve@hotmail.com", Department = Dept.HR},
+                //new Employee() {Id = 3, Name = "Laila", Email = "crazy_laila@hotmail.com", Department = Dept.Accountancy}
             };
         }
         public Employee GetEmployee(int id)
