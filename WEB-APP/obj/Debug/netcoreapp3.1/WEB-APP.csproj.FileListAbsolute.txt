@@ -140,3 +140,4 @@ C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\obj\Debug\netcoreapp3.1\WEB-APP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\erkan\source\repos\ASP.NET-CORE-TUTORIAL\WEB-APP\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs
